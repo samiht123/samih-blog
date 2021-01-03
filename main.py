@@ -63,7 +63,7 @@ class Comment(db.Model, Base):
     text = db.Column(db.Text, nullable=False)
 
 
-# db.create_all()
+db.create_all()
 
 
 class RegisterForm(FlaskForm):
